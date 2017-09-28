@@ -7,6 +7,7 @@
     <title></title>
 </head>
 <body>
+    <h1><%= "Welcome to My HomePage < Mingi Jang >" %></h1>
     <form id="form1" runat="server">
     <div>
     

@@ -4,15 +4,21 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <style type="text/css">.myBackGround {background-color :aqua;width: 970px;margin-left:auto;margin-right:auto;text-align:center}</style>
+    <link rel="Stylesheet" href="/HomPageCSS.css" type="text/css" />
     
     <title>Home Page</title>
+    
 </head>
 <body class="myBackGround">
     <form id="form1" runat="server">
-    <div>
-    <%= "Welcome to My HomePage < Mingi Jang >" %>
-    </div>
-    </form>
+        <asp:Image ID="Image1" runat="server" />
+    <img alt="Hero" class="auto-style1" src="file:///C:/Users/Min%20Gi/Documents/Visual%20Studio%202015/Projects/Comp229-Assign01/image/HeroPicture.png" />
+        <h1 id="Banner">
+        <%= "Welcome to My HomePage < Mingi Jang >" %></h1>
+
+        <div>
+            <a href="ResumePage.aspx"><img alt="resume" class="auto-style2" src="file:///C:/Users/Min%20Gi/Documents/Visual%20Studio%202015/Projects/Comp229-Assign01/image/resumeLogo.png" /></a>
+            <a href="Contact.aspx"><img alt="Contact" class="auto-style3" src="file:///C:/Users/Min%20Gi/Documents/Visual%20Studio%202015/Projects/Comp229-Assign01/image/ContactLogo.jpg" /></a></div>
+        &nbsp;</form>
 </body>
 </html>
