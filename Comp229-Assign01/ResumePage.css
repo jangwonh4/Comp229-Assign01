@@ -1,0 +1,40 @@
+﻿body {
+    
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2 {
+    text-align:right;
+    font-weight:bold;
+    color:dimgray;
+    
+}
+h4 {
+    text-align:right;
+    font-weight:bold;
+    color:darkgray;
+}
+hr { 
+    display:block;
+    margin-top: 0.5em;
+    margin-bottom:0.5em;
+    margin-left:auto;
+    margin-right:auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+
+#Content {
+    font-size:medium;
+    color:darkseagreen;
+    text-align: left;
+}
+
+#Title {
+    font-size:medium;
+    color:darkseagreen;
+    text-align: center;
+}

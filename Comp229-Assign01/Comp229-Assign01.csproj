@@ -111,6 +111,7 @@
     <Content Include="HomePage.aspx" />
     <Content Include="HomPageCSS.css" />
     <Content Include="ResumePage.aspx" />
+    <Content Include="ResumePage.css" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
